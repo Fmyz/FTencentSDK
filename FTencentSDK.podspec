@@ -76,13 +76,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios,'8.0'
   s.source       = { :git => "https://github.com/Fmyz/FTencentSDK.git", :tag => "#{s.version}" }
 
-  s.source_files = "TencentOpenApi/TencentOpenAPI.framework/Headers/**/*.h"
+  s.source_files = 'TencentOpenApi/TencentOpenAPI.framework/Headers/**/*.h'
 
   s.libraries = 'z', 'sqlite3.0', 'c++', 'iconv'
   s.framework    = "CoreTelephony", "Security", "SystemConfiguration", "CoreGraphics"
   s.vendored_frameworks = 'TencentOpenApi/TencentOpenAPI.framework'
 
-  s.resource_bundles    = { 'TencentOpenAPI' => ['TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle'] }
+  s.resource_bundles    = { 'TencentOpenApi' => ['TencentOpenApi/TencentOpenApi_IOS_Bundle.bundle'] }
 
   s.requires_arc = true
 
