@@ -1,2 +1,2 @@
 # FTencentSDK
-腾讯QQSDK
+腾讯QQSDK v3.1.0
