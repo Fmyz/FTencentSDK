@@ -129,3 +129,17 @@
 </dict>
 </array>
 
+#4. permissions
+kOPEN_PERMISSION_GET_USER_INFO,获取用户信息;
+kOPEN_PERMISSION_GET_SIMPLE_USER_INFO, 移动端获取用户信息;
+kOPEN_PERMISSION_GET_INFO,获取登录用户自己的详细信息;
+kOPEN_PERMISSION_GET_VIP_RICH_INFO,     获取会员用户详细信息;
+kOPEN_PERMISSION_GET_VIP_INFO,          获取会员用户基本信息;
+kOPEN_PERMISSION_GET_OTHER_INFO,        获取其他用户的详细信息;  
+kOPEN_PERMISSION_ADD_TOPIC,             发表一条说说到 QQ 空间 (需要申请权限);
+kOPEN_PERMISSION_ADD_ONE_BLOG,          发表一篇日志到 QQ 空间 (需要申请权限);
+kOPEN_PERMISSION_ADD_ALBUM,             创建一个 QQ 空间相册 (需要申请权限);
+kOPEN_PERMISSION_UPLOAD_PIC,            上传一张照片到 QQ 空间相册 (需要申请权限);
+kOPEN_PERMISSION_LIST_ALBUM,            获取用户 QQ 空间相册列表 (需要申请权限);
+kOPEN_PERMISSION_ADD_SHARE,             同步分享到 QQ 空间、腾讯微博;
+kOPEN_PERMISSION_CHECK_PAGE_FANS,       验证是否认证空间粉丝;
