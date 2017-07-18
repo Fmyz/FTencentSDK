@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
         Copyright (c) 2017 Tencent. All rights reserved.
         LICENSE
 }
-  s.author       = { "Fmyz" => "http://wiki.open.qq.com" }
+  s.author       = { "Fmyz" => "https://cocoapods.org/pods/FTencentSDK" }
 
   s.platform     = :ios,'8.0'
   s.source       = { :git => "https://github.com/Fmyz/FTencentSDK.git", :tag => "#{s.version}" }
