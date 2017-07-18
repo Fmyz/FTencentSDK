@@ -33,6 +33,7 @@
 #打上标签
 ##git tag -a 0.0.1 -m "tag release 0.0.1"
 ##git push --tags
+##git push origin 0.0.1
 
 #删除一个标签 git tag -d 0.03
 
@@ -60,17 +61,17 @@
 
 Pod::Spec.new do |s|
   s.name         = "FTencentSDK"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
 
-  s.summary      = "腾讯 TencentOpenApi v3.1.0"
+  s.summary      = "腾讯 TencentOpenApi v3.2.3"
   s.description  = <<-DESC
-       TencentOpenApi v3.1.0,方便自己更新
+       TencentOpenApi v3.2.3,方便自己更新
                    DESC
   s.homepage     = "http://wiki.open.qq.com"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
-        Copyright (c) 2016 Tencent. All rights reserved.
+        Copyright (c) 2017 Tencent. All rights reserved.
         LICENSE
 }
   s.author       = { "Fmyz" => "http://wiki.open.qq.com" }
@@ -83,8 +84,6 @@ Pod::Spec.new do |s|
   s.libraries = 'z', 'sqlite3.0', 'c++', 'iconv'
   s.framework    = "CoreTelephony", "Security", "SystemConfiguration", "CoreGraphics"
   s.vendored_frameworks = 'TencentOpenApi/TencentOpenAPI.framework'
-
-  s.resource_bundles    = { 'TencentOpenApi' => ['TencentOpenApi/TencentOpenApi_IOS_Bundle.bundle'] }
 
   s.requires_arc = true
 
