@@ -1,5 +1,7 @@
 # FTencentSDK
-腾讯QQSDK v3.1.0
+腾讯QQSDK v3.2.3
+
+pod 'FTencentSDK'
 
 #weixin http://wiki.open.qq.com
 #1.对传输安全的支持
